@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-primary {
+    color: #124265 !important;
+}
+
+.btn-primary {
+    background-color: #124265 !important;
+}
+
+#tophero-section, .card-section {
+    background:linear-gradient( 45deg rgba(255, 255, 255, 0.8)) url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* #tophero-section::before{
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+} */
+
+.count-section {
+    background-color: #f8fbfe;
+}
+
+.client-section img {
+max-width: 45%;
+filter: grayscale(100);
+transition: all 0.4s ease-in-out;
+}
+
+.client-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+    }
+
+    .testimonial-person {
+        text-align: center;
+
+    }
+    
+
+    .testimonial-person img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+        
+    }
+
+
+.swiper-pagination {
+    transition: .3s;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+
+.services-section {
+    background-color: rgb(248, 251, 254);;
+}
+
+.call-to-action {
+    background-color:  rgb(36, 135, 206) ;
+}
+
+.d-flex {
+  text-decoration: none !important; 
+  justify-content: center;
+}
+
+.faq-list {
+    max-width: 70%;
+    border: none;
+    color: rgb(0, 68, 255);
+}
+
+/* .faq-list option:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+} */
+
+.links {
+    text-decoration: none !important;
+    list-style: none !important;
+}
